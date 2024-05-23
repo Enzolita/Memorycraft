@@ -2,55 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     height: 100vh;
     display: flex;
-}
-
-.memory__game {
-    width: 640px;
-    height: 640px;
-    margin: auto;
-    display: flex;
-    border: 2px solid black;
-    flex-wrap: wrap;
-}
-
-.memory__card {
-    width: (25% - 10px);
-    height: 33.333%;
-    margin: 5px;
-    position: relative;
-    border: 2px solid white;
-    transform: scale(1);
-}
-
-.memory__card:active {
-    transform: scale(0.97);
-    transition: transform .2s;
-}
-
-.front-face,
-.back-face {
-   /* width: 100%;
-    height: 100%; */
-    padding: 20px;
-    position: absolute;
-    border-radius: 5px;
-    border: 2px solid green;
-}
-
-html {
-    width: 100%;
-    height: 100%;
     background: linear-gradient(325deg,  orange 0%,black 30%, navy 70%, #264ebd 100%);
     font-family: 'warcraft';
-    overflow: hidden;
-}
+  }
 
-h1 {
+  h1 {
     position: absolute;
     top: 0;
     left: 50%;
@@ -71,6 +32,46 @@ p {
     left: 350px;
 }
 
-img {
-    
+  .memory-game {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+  }
+  
+  .memory-card {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+  }
+  
+  .memory-card:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+  }
+  
+.memory-card.flip {
+  transform: rotateY(180deg);
+}
+
+.front-face,
+.back-face {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    background: #1C7CCC;
+    backface-visibility: hidden;
+  }
+
+.front-face {
+  transform: rotateY(180deg);
 }
