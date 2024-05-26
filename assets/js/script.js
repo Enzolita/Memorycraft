@@ -4,6 +4,13 @@ document.querySelector('.restart-button').addEventListener('click', function(){
     return false;
   });
 
+  document.querySelector('.refresh-page').addEventListener('click', function(){
+    window.location.reload();
+    return false;
+  });
+
+
+
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
@@ -66,3 +73,7 @@ function unflipCards() {
 
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+
+
+
