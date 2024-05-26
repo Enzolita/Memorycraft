@@ -1,4 +1,8 @@
 const cards = document.querySelectorAll('.memory-card');
+document.querySelector('.restart-button').addEventListener('click', function(){
+    window.location.reload();
+    return false;
+  });
 
 let hasFlippedCard = false;
 let lockBoard = false;
