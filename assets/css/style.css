@@ -4,37 +4,38 @@
     box-sizing: border-box;
   }
   
+  header {
+    text-align: center;
+    margin: 1rem;
+  }
+
   body {
-    height: 100vh;
-    display: flex;
+    min-height: 100vh;
     background: linear-gradient(325deg,  orange 0%,black 30%, navy 70%, #264ebd 100%);
     font-family: 'warcraft';
+    justify-content: center;
   }
 
   h1 {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 90px;
+    font-size: 3rem;
+    margin-bottom: 1rem;
     color: orange;
     text-shadow: 4px 4px black;
 }
 
 
 p {
-    font-size: 55px;
-    position: absolute;
-    top: 0;
+   font-size: 2rem;
     color: orange;
     text-shadow: 3px 3px black;
     margin-top: auto;
-    left: 350px;
+    
 }
 
   .memory-game {
+    max-width: 100%;
     width: 640px;
-    height: 640px;
+    height: 300px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -75,3 +76,65 @@ p {
 .front-face {
   transform: rotateY(180deg);
 }
+
+.restart-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reset-button:hover {
+  background-color: #d8c9c9;
+}
+
+#wow-text {
+  display: none;
+}
+
+@media screen and (min-width: 425px) {
+
+  .memory-game {
+    height: 355px;
+  }
+  
+}
+
+
+/* tablet */
+@media screen and (min-width: 760px) {
+
+  #wow-text {
+    height: 5px;
+    display: block;
+  }
+
+.memory-game {
+  height: 640px;
+}
+
+ h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+p {
+    font-size: 2rem;
+}
+
+}
+
+@media screen and (min-width: 1920px) {
+  
+}
+
+
+
+
+
