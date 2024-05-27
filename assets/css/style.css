@@ -78,7 +78,8 @@ p {
   transform: rotateY(180deg);
 }
 
-.restart-button {
+.restart-button,
+#start{
   display: block;
   margin: 20px auto;
   padding: 10px 20px;
@@ -99,7 +100,7 @@ p {
 }
 
 
-#win-container {
+#win-container, #game-over-container {
   text-align: center;
   display: none; /* Initially hidden */
   position: absolute;
@@ -116,6 +117,13 @@ p {
   width: 100%;
 }
 
+#timer {
+  display: none;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
 
 @media screen and (min-width: 425px) {
 
@@ -123,7 +131,7 @@ p {
     height: 355px;
   }
   
-  #win-container {
+  #win-container, #game-over-container {
     padding-top: 150px;
   }
 }
@@ -151,7 +159,7 @@ p {
     font-size: 2rem;
 }
 
-#win-container {
+#win-container, #game-over-container{
   padding-top: 300px;
 }
 }
