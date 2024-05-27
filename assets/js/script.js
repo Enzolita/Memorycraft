@@ -10,6 +10,8 @@ document.querySelector('.restart-button').addEventListener('click', function(){
   });
 
 
+  
+
 
 let hasFlippedCard = false;
 let lockBoard = false;
@@ -39,13 +41,29 @@ function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
 
     isMatch ? disableCards() : unflipCards();
+    if (isMatch) {
+        card.classList.add('disabled');
+
+    }
 }
 
 function disableCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
+    const allDisabled = Array.from(cards).every(card => card.classList.contains('disabled'));
 
+    // firstCard.classList.add("locked");
+    // secondCard.classList.add("locked");
+
+
+
+    if (allDisabled) {
+        // Show the win container
+        document.getElementById('win-container').style.display = 'block';
+    }
+    
     resetBoard();
+
 }
 
 function unflipCards() {
