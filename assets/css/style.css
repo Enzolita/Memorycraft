@@ -24,6 +24,11 @@
     text-shadow: 4px 4px black;
 }
 
+  h1:hover {
+    cursor: pointer;
+    color:#f44336
+  }
+
 
 p {
    font-size: 2rem;
@@ -79,17 +84,19 @@ p {
 }
 
 .restart-button,
-#start{
+#start, 
+#info-button{
   display: block;
   margin: 20px auto;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #f44336;
+  background-color: #36a5f4;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
+
 
 #reset-button:hover {
   background-color: #d8c9c9;
@@ -100,7 +107,7 @@ p {
 }
 
 
-#win-container, #game-over-container {
+#win-container, #game-over-container, #information {
   text-align: center;
   display: none; /* Initially hidden */
   position: absolute;
