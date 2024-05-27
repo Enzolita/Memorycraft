@@ -106,13 +106,23 @@ function startGame() {
     startTimer();
     document.getElementById('start').style.display = 'none';
     document.getElementById('timer').style.display = 'block';
+    document.getElementById('information').style.display = 'none';
+    document.getElementById('info-button').style.display = 'none';
 }
 
 function endGame() {
     stopTimer();
     
 }
+const infoBtn = document.getElementById("info-button");
 
+infoBtn.addEventListener('click', function(){
+    document.getElementById('information').style.display = 'block';
+    document.getElementById('info-button').style.display = 'none';
+})
+
+
+   
 
 
 
