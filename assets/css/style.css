@@ -11,7 +11,8 @@
 
   body {
     min-height: 100vh;
-    background: linear-gradient(325deg,  orange 0%,black 30%, navy 70%, #264ebd 100%);
+    background: linear-gradient(black 0%, blue 70%, yellow );
+    background-image: url ("wow-background.jpg");
     font-family: 'warcraft';
     justify-content: center;
   }
@@ -97,12 +98,34 @@ p {
   display: none;
 }
 
+
+#win-container {
+  text-align: center;
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 10;
+  padding-top: 100px;
+  height: 100%;
+  width: 100%;
+}
+
+
 @media screen and (min-width: 425px) {
 
   .memory-game {
     height: 355px;
   }
   
+  #win-container {
+    padding-top: 150px;
+  }
 }
 
 
@@ -128,7 +151,11 @@ p {
     font-size: 2rem;
 }
 
+#win-container {
+  padding-top: 300px;
 }
+}
+
 
 @media screen and (min-width: 1920px) {
   

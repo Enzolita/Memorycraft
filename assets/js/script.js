@@ -50,7 +50,7 @@ function disableCards() {
 
     matches += 1
     console.log(matches)
-    if (matches === 6) {
+    if (matches === 1) {
         // Show the win container
         document.getElementById('win-container').style.display = 'block';
     }
