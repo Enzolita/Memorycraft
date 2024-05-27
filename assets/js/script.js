@@ -9,9 +9,8 @@ document.querySelector('.restart-button').addEventListener('click', function(){
     return false;
   });
 
-
   
-
+let matches = 0;
 
 let hasFlippedCard = false;
 let lockBoard = false;
@@ -41,10 +40,6 @@ function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
 
     isMatch ? disableCards() : unflipCards();
-    if (isMatch) {
-        cards.classList.add('disabled');
-
-    }
 }
 
 function disableCards() {
@@ -52,12 +47,10 @@ function disableCards() {
     secondCard.removeEventListener('click', flipCard);
     const allDisabled = Array.from(cards).every(card => card.classList.contains('disabled'));
 
-    // firstCard.classList.add("locked");
-    // secondCard.classList.add("locked");
 
-
-
-    if (allDisabled) {
+    matches += 1
+    console.log(matches)
+    if (matches === 6) {
         // Show the win container
         document.getElementById('win-container').style.display = 'block';
     }
