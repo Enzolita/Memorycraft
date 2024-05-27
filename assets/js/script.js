@@ -42,7 +42,7 @@ function checkForMatch() {
 
     isMatch ? disableCards() : unflipCards();
     if (isMatch) {
-        card.classList.add('disabled');
+        cards.classList.add('disabled');
 
     }
 }
