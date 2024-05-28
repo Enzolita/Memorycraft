@@ -78,12 +78,13 @@ h2 {
     padding: 20px;
     position: absolute;
     border-radius: 5px;
-    background: #1C7CCC;
+    background: linear-gradient(yellow 0%, black 50%, blue);
     backface-visibility: hidden;
   }
 
 .front-face {
   transform: rotateY(180deg);
+  background: linear-gradient(blue 0%, black 50%, yellow);
 }
 
 .restart-button,
