@@ -94,7 +94,7 @@ function updateTimer() {
 }
 function startTimer() {
     clearInterval(timerInterval);
-    seconds = 10;
+    seconds = 40;
     minutes = 0;
     updateTimer();
     timerInterval = setInterval(updateTimer, 1000); // Update timer every second
