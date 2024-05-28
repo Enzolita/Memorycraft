@@ -159,7 +159,3 @@ function startGame() {
     infoBtn.style.display = 'none';
 }
 
-// End the game by stopping the timer
-function endGame() {
-    stopTimer();
-}
