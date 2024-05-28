@@ -12,7 +12,6 @@
   body {
     min-height: 100vh;
     background: linear-gradient(black 0%, blue 70%, yellow );
-    background-image: url ("wow-background.jpg");
     font-family: 'warcraft';
     justify-content: center;
   }
@@ -150,6 +149,25 @@ h2 {
     cursor: pointer;
 }
 
+.footer {
+  background-color: transparent;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  border: 1px solid black;
+  text-align: center;
+  border: none;
+  margin-top: 1%;
+}
+
+.footer i {
+  color: black;
+  margin-top: 0.5%;
+}
+
+.footer h3 {
+  font-style: normal;
+}
 
 
 @media screen and (min-width: 425px) {
