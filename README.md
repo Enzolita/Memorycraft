@@ -1,12 +1,11 @@
-<p align="center"><img src="/assets/images/responsive.png" alt="drawing" width="800"/></p>
+<p align="center"><img src="documentation/responsive.png" alt="drawing" width="800"/></p>
 
 
-# Introduction
+
 # Memorycraft
 ### Project Description - A world of warcraft inspired memory game for all wow fans out there.
 ### Project Purpose - Explain why your project exists and what problem it aims to solve. This helps users understand the context and motivation behind your project. 
 ### The game created is a good way to practice ones memory. - It's user friendly for children and adults.
-
 
 
 
@@ -17,60 +16,29 @@ You will need to explain what value each of the features provides for the user, 
 
 <hr> 
 
-**Navbar**
+# Design
 
-  - Featured on all three pages, the fully responsive navigation bar includes links to the logo, home page, gallery, and sign-up page. It is identical on each page to facilitate easy navigation.
-  - This section allows users to navigate seamlessly between pages on all devices without needing to use the 'back' button.
+ **Fonts**
 
-  <details><summary>Navbar Screenshot</summary>
+The custom-made font that was used for this project was mainly chosen to let it resemble world of warcraft.
+- Readability - I found this font ensured the content remained easy to read an digest across all resolutions.
+- Versatility - Raleway and Poppins adapt well to various contexts without sacrificing readability.
+- Distinctiveness - Raleway font came across very elegant and refined, whereas Poppins contributes a more friendly and approachable vibe.
 
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
 
-  </details>
-
-<hr> 
-
-**Services**
-
-  - Services section highlights available to the client services in a form of cards, each with a Call To Action button leading to the Contact form 
-
-  <details><summary>Services Screenshot</summary>
+  <details><summary>Font Screenshot</summary>
 
   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
 
   </details>
 
-<hr> 
-
-**The Gallery**
-
-  - Gallery showcases various artwork by the Photographer, or images of past events
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-  <details><summary>Gallery Screenshot</summary>
-
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
 
 <hr> 
 
-**Contact Form**
-
-  - An interactive contact form to enable users to get in touch with the company
-  - Includes fields for name, email and a message
-
-  <details><summary>Contact Form Screenshot</summary>
-
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
-
-<hr> 
 
 **The Footer**
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer leads the user to the project's repository when the Github icon is being clicked on.
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
   <details><summary>Footer Screenshot</summary>
@@ -87,11 +55,11 @@ You will need to explain what value each of the features provides for the user, 
 ## Future Features
 While the current version of the project is fully functional, we have some exciting features planned for future updates. Here are a few ideas that we didn't have time to implement in this release:
 
-1. **Client Galleries**:
+1. **Leaderboard**:
    - Allow photographers to create private galleries for clients to view and download their photos securely.
-2. **Online Booking and Scheduling**:
+2. **Sound**:
    - Implement a booking system that allows clients to schedule sessions with photographers, choose dates, and make payments online.
-3. **Photo Editing Tools**:
+3. **Difficulty level**:
    - Integrate basic photo editing tools like cropping, rotating, and applying filters directly on the website to enhance user-generated photos.
 4. **Print Ordering**:
    - Enable clients to order prints, canvases, or other products featuring their favorite photos directly from the website.
@@ -108,13 +76,13 @@ While the current version of the project is fully functional, we have some excit
 
 |  Feature |  Action | Effect |
 |---|---|---|
-|Logo|Click|Brings back to Home page|
+|Header|Click|Brings back to Home page|
 |Navbar Links|Click on Gallery|Opens Gallery|
 ||Click on About|Opens About page|
 ||Click on Contact|Opens Contact page|
 |Contact Page|Fill out the form and submit|A form dump is rendered|
 ||Attempt to submit empty|Error pops up in field that's left empty|
-|Social Media Links|Test Instagram link|Instagram profile opens in a separate tab|
+|Social Media Links|Test Github link|Instagram profile opens in a separate tab|
 
 <hr>
 
@@ -134,11 +102,13 @@ Lighthouse tests were executed using the Google Chrome browser's DevTools.
 
 **Detailed Results**
 - **Performance**: The website's performance score is 81, indicating good overall performance. However, there is room for improvement to further optimize loading times.
+<!---minor issues accessibility with contrast-->
 - **Accessibility**: The website excels in accessibility, with a score of 93, indicating strong adherence to accessibility standards. Minimal accessibility issues were detected.
 - **Best Practices**: The website follows best practices with a score of 92. There are minor areas for improvement, particularly in script loading.
 - **SEO**: SEO performance is strong, with a score of 92. The website has well-optimized meta tags and structured data markup.
 
 **Areas for Improvement**
+<!-- change images to webp to improve perfpormance-->
 - Performance can be enhanced by optimizing resource loading and reducing unnecessary requests.
 - Continue monitoring accessibility to maintain a high standard and address any emerging issues.
 - Best practices can be further improved by optimizing script loading and code splitting.
@@ -161,6 +131,8 @@ Our web application is officially tested and supported on the following browsers
 We conduct manual responsiveness testing on Chrome and Firefox to ensure a seamless user experience.
 
 **Test Results**
+
+#### Screen Sizes testing
 
 | Device/Screen Size  | Chrome Performance | Firefox Performance |
 |----------------------|--------------------|---------------------|
@@ -273,14 +245,13 @@ Here are the details of the resolved bugs:
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Main Branch
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://enzolita.github.io/Memorycraft/ 
 
 
 ## Credits 
