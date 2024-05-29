@@ -3,16 +3,75 @@
 
 
 # Memorycraft
-### Project Description - A world of warcraft inspired memory game for all wow fans out there.
-### Project Purpose - Explain why your project exists and what problem it aims to solve. This helps users understand the context and motivation behind your project. 
-### The game created is a good way to practice ones memory. - It's user friendly for children and adults.
+### A world of warcraft inspired memory game for all wow fans out there.
+### Memory games are a valuable tool for enhancing mental functions, promoting learning, and providing enjoyable and beneficial challenges for people of all ages.
+
+   - Score points by matching all pairs.
+   - Win the game by matching all of them.
+   - Have fun!
 
 ## [Live site](https://enzolita.github.io/Memorycraft/)
 
-# Features 
+# Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. 
-You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+**Main Header**
+
+  - A fully responsive header that that allows users to refresh the page when being clicked on, it also has a hover effect that makes it change color and pointer.
+
+  <details><summary>Header Screenshot</summary>
+
+  ![Project header large](documentation/header1.png)
+  ![Project header small](documentation/header1hover.png)
+  </details>
+
+
+**How to play Button**
+
+  - A button that provides the user with how to play information about the game.
+
+  <details><summary>How to play button Screenshot</summary>
+
+  ![How to play](documentation/how-to-play-button.png)
+
+  </details>
+
+**Start Game Button**
+
+  - A start game button that starts the game and allows you to play when clicked.
+  - Includes a countdown timer.
+   - When clicked starts the memory game.
+   - When countdown reaches zero it will say you lost.
+   - If game is won it will say you win!
+
+
+  <details><summary>Start Game Button Screenshot</summary>
+
+ ![Start Game Button](documentation/start-game-button.png)
+
+  </details>
+
+
+  - **Memory Board**
+
+- Frontside pictures of the horde logo.
+- Flip animation when clicked.
+- Shows how many matches you've gotten so far.
+- On the backside are pictures of different horde factions.  
+![memory board picture](documentation/image/memory-board.png)
+![memory board picture](documentation/image/memory-board2.png)
+
+
+**The Footer**
+
+  - A paragraph with 
+  - The footer leads the user to the project's repository when the Github icon is being clicked on.
+ 
+
+  <details><summary>Footer Screenshot</summary>
+
+  ![Footer](documentation/footer.png)
+
+  </details>
 
 <hr> 
 
@@ -47,21 +106,6 @@ I used some free source images from deviantart for multiple reasons,
 
 
 <hr> 
-
-
-**The Footer**
-
-  - The footer leads the user to the project's repository when the Github icon is being clicked on.
-
-  <details><summary>Footer Screenshot</summary>
-
-   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
-
-<hr> 
-
-
 
 
 ## Future Features
@@ -110,9 +154,9 @@ This report presents the results of Lighthouse testing conducted to assess the p
 Lighthouse tests were executed using the Google Chrome browser's DevTools.
 
 **Test Metrics**
-- Performance Score: 81
-- Accessibility Score: 93
-- Best Practices Score: 92
+- Performance Score: 75
+- Accessibility Score: 95
+- Best Practices Score: 96
 - SEO Score: 92
 
 **Detailed Results**
@@ -131,19 +175,18 @@ Lighthouse tests were executed using the Google Chrome browser's DevTools.
 
 **Visuals**
 
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1692960667/Screenshot_2023-08-25_at_11.50.29_cfmkxt.png" alt="drawing" width="800"/></p>
+<p align="center"><img src="documentation/Lighthouse.png" alt="lighthouse score" width="800"/></p>
 
 <hr>
 
 #### Browsers
 
 **Supported Browsers and Devices**
-Our web application is officially tested and supported on the following browsers and devices:
+The web application is officially tested and supported on the following browsers and devices:
 - Google Chrome (latest version)
-- Mozilla Firefox (latest version)
 
 **Responsiveness Testing**
-We conduct manual responsiveness testing on Chrome and Firefox to ensure a seamless user experience.
+We conduct manual responsiveness testing on Chrome to ensure a seamless user experience.
 
 **Test Results**
 
@@ -192,62 +235,8 @@ Our web application is designed to be responsive and adapt to various screen siz
 
 <hr> 
 
-#### Bugs Resolved
 
 
-**Introduction**
-This section provides a summary of bugs that have been identified, reported, and subsequently resolved in [Website Name].
-
-**Bug Tracking**
-Below is a summary of resolved bugs:
-
-| Bug ID | Bug Description | Status |
-|--------|-----------------|--------|
-| #001   | Describe the bug and its impact on the user experience. | Resolved |
-| #002   | Describe the bug and its impact on the user experience. | Resolved |
-| #003   | Describe the bug and its impact on the user experience. | Resolved |
-| #004   | Describe the bug and its impact on the user experience. | Resolved |
-| #005   | Describe the bug and its impact on the user experience. | Resolved |
-
-**Bug Details**
-Here are the details of the resolved bugs:
-
-**Bug #001**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #002**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #003**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #004**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #005**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-<hr>
-
-#### Bugs Unresolved(if applicable)
-
-| Bug ID | Bug Description | Status |
-|--------|-----------------|--------|
-| #001   | Describe the bug and its impact on the user experience. | Unesolved |
-| #002   | Describe the bug and its impact on the user experience. | Unesolved |
-| #003   | Describe the bug and its impact on the user experience. | Unesolved |
-| #004   | Describe the bug and its impact on the user experience. | Unesolved |
-| #005   | Describe the bug and its impact on the user experience. | Unesolved |
 <hr>
 
 #### Validator Testing 
