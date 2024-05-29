@@ -7,7 +7,7 @@
 ### Project Purpose - Explain why your project exists and what problem it aims to solve. This helps users understand the context and motivation behind your project. 
 ### The game created is a good way to practice ones memory. - It's user friendly for children and adults.
 
-
+## [Live site](https://enzolita.github.io/Memorycraft/)
 
 # Features 
 
@@ -28,9 +28,22 @@ The custom-made font that was used for this project was mainly chosen to let it 
 
   <details><summary>Font Screenshot</summary>
 
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
+  <p align="center"><img src="documentation/paragraph.png" alt="drawing" width="600"/></p>
 
   </details>
+
+**Images**
+
+I used some free source images from deviantart for multiple reasons,
+- Firstly, these images provide visual context, aligning perfectly with the theme or content of the project.
+- Secondly, by choosing high-quality images from deviantart, I ensure a professional and polished appearance, enhancing the overall aesthetic appeal of the project.
+- Finally, I chose images that I felt would resonate with my audience.
+
+**Colors**
+
+- The colors orange and black were mainly chosen for the theme.
+- Black and orange were used across the project primarily for text or to improve readability.
+- Finally text shadow was used across the project in moments were contrast was an issue for example light background and light color text.
 
 
 <hr> 
@@ -39,7 +52,6 @@ The custom-made font that was used for this project was mainly chosen to let it 
 **The Footer**
 
   - The footer leads the user to the project's repository when the Github icon is being clicked on.
-  - The footer is valuable to the user as it encourages them to keep connected via social media
 
   <details><summary>Footer Screenshot</summary>
 
@@ -76,13 +88,16 @@ While the current version of the project is fully functional, we have some excit
 
 |  Feature |  Action | Effect |
 |---|---|---|
-|Header|Click|Brings back to Home page|
-|Navbar Links|Click on Gallery|Opens Gallery|
-||Click on About|Opens About page|
-||Click on Contact|Opens Contact page|
+|Header|When clicked|Brings back to Home page|
+|Header|When hovered over|Lights up with a red color|
+|Start Game Button|When clicked|Starts the memory game
+|Reset Game Button|When clicked|Refreshes the page|
 |Contact Page|Fill out the form and submit|A form dump is rendered|
 ||Attempt to submit empty|Error pops up in field that's left empty|
-|Social Media Links|Test Github link|Instagram profile opens in a separate tab|
+|Social Media Links|Test Github link|Github repository opens in a separate tab|
+
+![header picture](documentation/header1.png)  
+![header picture](documentation/header1hover.png)
 
 <hr>
 
