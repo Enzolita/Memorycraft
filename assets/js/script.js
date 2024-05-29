@@ -33,7 +33,7 @@ infoBtn.addEventListener('click', function() {
 
 closeButton.addEventListener('click', function() {
     information.style.display = 'none';
-    infoBtn.style.display = 'block';
+    infoBtn.style.display = 'inline';
 });
 
 // Hide the information modal when the Escape key is pressed
