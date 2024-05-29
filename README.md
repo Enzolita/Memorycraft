@@ -168,12 +168,6 @@ Lighthouse tests were executed using the Google Chrome browser's DevTools.
 - **Best Practices**: The website follows best practices with a score of 92. There are minor areas for improvement, particularly in script loading.
 - **SEO**: SEO performance is strong, with a score of 92. The website has well-optimized meta tags and structured data markup.
 
-**Areas for Improvement**
-<!-- change images to webp to improve perfpormance-->
-- Performance can be enhanced by optimizing resource loading and reducing unnecessary requests.
-- Continue monitoring accessibility to maintain a high standard and address any emerging issues.
-- Best practices can be further improved by optimizing script loading and code splitting.
-- Maintain and regularly update meta tags and structured data markup to ensure strong SEO performance.
 
 **Visuals**
 
