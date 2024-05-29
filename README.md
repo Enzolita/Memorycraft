@@ -139,11 +139,14 @@ While the current version of the project is fully functional, we have some excit
 |Header|When hovered over|Lights up with a red color|
 |Start Game Button|When clicked|Starts the memory game
 |Reset Game Button|When clicked|Refreshes the page|
-|Contact Page|Fill out the form and submit|A form dump is rendered|
-||Attempt to submit empty|Error pops up in field that's left empty|
 |Social Media Links|Test Github link|Github repository opens in a separate tab|
 
 <hr>
+
+## Responsiveness
+
+ - I leveraged the developer tools to test the responsiveness of the project across different resolutions.
+
 
 #### Lighthouse
 
@@ -199,13 +202,6 @@ We conduct manual responsiveness testing on Chrome to ensure a seamless user exp
 | Tablet (iPad)       | Performs as expected | Describe performance and issues on Firefox |
 | Mobile (iPhone X)   | Performs as expected | Describe performance and issues on Firefox |
 
-**Known Issues**
-- [List any known responsiveness issues or limitations]
-
-**Recommendations**
-If you encounter any responsiveness issues, we recommend:
-- Updating your browser to the latest version.
-- Trying an alternative device or screen size for optimal viewing.
 
 <hr>
 
