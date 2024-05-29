@@ -55,7 +55,6 @@
 
 - Frontside pictures of the horde logo with low opacity.
 - Flip animation when clicked.
-- Shows how many matches you've gotten so far.
 - On the backside are pictures of different horde factions with normal opacity.
    
    <details><summary>Memory Board Screenshot</summary>
