@@ -28,9 +28,11 @@
 
   <main>
 
-    <button id="info-button">How to play</button>
-    <button id="start">Start Game</button>
-    <div id="timer">00:00</div>
+    <div class="control-buttons">
+      <button id="start">Start Game</button>
+      <button id="info-button">How to play</button>
+      <div id="timer">00:00</div>
+    </div>
 
     <section class="memory-game">
       <h2 class="hidden-heading">Memorygame</h2>
@@ -93,12 +95,15 @@
         <button class="restart-button">Restart Game</button>
       </div>
       <div id="win-container">
-        <p>Congratulations You won!</p>
+        <p>Well done, you found all matching cards! Congratulations You won!</p>
         <button class="restart-button">Restart Game</button>
       </div>
       <div id="information">
         <span class="close-button">&times;</span>
-        <p>The goal of the memory game is to find six matching pairs of cards..</p>
+        <p>Press "Start Game".
+          The goal of the memory game is to find six matching pairs of cards.
+          If you want to restart the game press the "Reset Game" button that appears when you either lose or win.
+        </p>
       </div>
     </section>
   </main>
@@ -108,7 +113,7 @@
         <h2>Made by <br> Elena Hanna</h2>
         <ul>
             <li><a href="https://github.com/Enzolita/Memorycraft" target="_blank"
-                    aria-label="Takes you to this github repository."><i class="fa-brands fa-github"></i></a></li>
+                    aria-label="Takes you to this project's github repository."><i class="fa-brands fa-github"></i></a></li>
         </ul>
     </div>
 
