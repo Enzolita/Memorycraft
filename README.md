@@ -51,19 +51,28 @@
   </details>
 
 
-  - **Memory Board**
+**Memory Board**
 
-- Frontside pictures of the horde logo.
+- Frontside pictures of the horde logo with low opacity.
 - Flip animation when clicked.
 - Shows how many matches you've gotten so far.
-- On the backside are pictures of different horde factions.  
-![memory board picture](documentation/image/memory-board.png)
-![memory board picture](documentation/image/memory-board2.png)
+- On the backside are pictures of different horde factions with normal opacity.
+   
+   <details><summary>Memory Board Screenshot</summary>
+
+![memory board picture](documentation/game-mechanics.gif)
+
+
+**Reset Game**
+
+- Reset game button that refreshes the page so the user can restart the game. 
+![reset button picture](documentation/restart-button.png)
+
+
 
 
 **The Footer**
 
-  - A paragraph with 
   - The footer leads the user to the project's repository when the Github icon is being clicked on.
  
 
@@ -112,17 +121,11 @@ I used some free source images from deviantart for multiple reasons,
 While the current version of the project is fully functional, we have some exciting features planned for future updates. Here are a few ideas that we didn't have time to implement in this release:
 
 1. **Leaderboard**:
-   - Allow photographers to create private galleries for clients to view and download their photos securely.
+   - A leaderboard that shows the users score.
 2. **Sound**:
-   - Implement a booking system that allows clients to schedule sessions with photographers, choose dates, and make payments online.
+   - A sound that appears when clicking on the cards.
 3. **Difficulty level**:
-   - Integrate basic photo editing tools like cropping, rotating, and applying filters directly on the website to enhance user-generated photos.
-4. **Print Ordering**:
-   - Enable clients to order prints, canvases, or other products featuring their favorite photos directly from the website.
-5. **Portfolio Builder**:
-   - Provide photographers with tools to easily create and customize their online portfolios, including options for different styles and layouts.
-6. **Blog or News Section**:
-   - Add a blog or news section to share photography tips, behind-the-scenes stories, and updates about your services.
+   - Different difficulty levels to choose between.
 
 <hr>
 
@@ -139,9 +142,6 @@ While the current version of the project is fully functional, we have some excit
 |Contact Page|Fill out the form and submit|A form dump is rendered|
 ||Attempt to submit empty|Error pops up in field that's left empty|
 |Social Media Links|Test Github link|Github repository opens in a separate tab|
-
-![header picture](documentation/header1.png)  
-![header picture](documentation/header1hover.png)
 
 <hr>
 
