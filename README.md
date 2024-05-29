@@ -90,13 +90,13 @@
 
 The custom-made font that was used for this project was mainly chosen to let it resemble world of warcraft.
 - Readability - I found this font ensured the content remained easy to read an digest across all resolutions.
-- Versatility - Raleway and Poppins adapt well to various contexts without sacrificing readability.
-- Distinctiveness - Raleway font came across very elegant and refined, whereas Poppins contributes a more friendly and approachable vibe.
+- Versatility - Warcraft and default adapt well to various contexts without sacrificing readability.
+- Distinctiveness - Warcraft font came across very elegant and refined, whereas default contributes a more friendly and approachable vibe.
 
 
   <details><summary>Font Screenshot</summary>
 
-  <p align="center"><img src="documentation/paragraph.png" alt="drawing" width="600"/></p>
+  <p align="center"><img src="documentation/paragraph.png" alt="paragraph" width="600"/></p>
 
   </details>
 
@@ -192,12 +192,12 @@ We conduct manual responsiveness testing on Chrome to ensure a seamless user exp
 
 #### Screen Sizes testing
 
-| Device/Screen Size  | Chrome Performance | Firefox Performance |
-|----------------------|--------------------|---------------------|
-| Desktop (1920x1080) | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Laptop (1366x768)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Tablet (iPad)       | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Mobile (iPhone X)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
+| Device/Screen Size  | Chrome Performance |
+|----------------------|--------------------|
+| Desktop (1920x1080) | Performs as expected | Describe performance and issues on Firefox |
+| Laptop (1366x768)   | Performs as expected | Describe performance and issues on Firefox |
+| Tablet (iPad)       | Performs as expected | Describe performance and issues on Firefox |
+| Mobile (iPhone X)   | Performs as expected | Describe performance and issues on Firefox |
 
 **Known Issues**
 - [List any known responsiveness issues or limitations]
@@ -212,10 +212,10 @@ If you encounter any responsiveness issues, we recommend:
 #### Screen Sizes testing
 
 **Introduction**
-This section provides an overview of how our web application [Website Name] performs across different screen sizes.
+This section provides an overview of how the web application Memorycraft performs across different screen sizes.
 
 **Supported Screen Sizes**
-Our web application is designed to be responsive and adapt to various screen sizes. Below are the screen sizes we have tested:
+The web application is designed to be responsive and adapt to various screen sizes. Below are the screen sizes we have tested:
 
 | Screen Size     | Description             |
 |-----------------|-------------------------|
@@ -223,18 +223,6 @@ Our web application is designed to be responsive and adapt to various screen siz
 | Laptop          | 1366x768 pixels         |
 | Tablet (iPad)   | 768x1024 pixels (portrait) and 1024x768 pixels (landscape) |
 | Mobile (iPhone) | 375x812 pixels (iPhone X, portrait) and 812x375 pixels (iPhone X, landscape) |
-
-**Testing Results**
-
-| Screen Size     | Test Results           |
-|-----------------|------------------------|
-| Desktop         | Describe performance and issues on different browsers |
-| Laptop          | Describe performance and issues on different browsers |
-| Tablet (iPad)   | Describe performance and issues on different browsers |
-| Mobile (iPhone) | Describe performance and issues on different browsers |
-
-<hr> 
-
 
 
 <hr>
@@ -253,30 +241,24 @@ Our web application is designed to be responsive and adapt to various screen siz
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Main Branch
-  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://enzolita.github.io/Memorycraft/ 
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. 
-It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-#### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- The development of this project was aided by the following YouTube tutorials:
-
-| Tutorial Title      | Creator/Channel Name | Description                                          |
-|---------------------|-----------------------|------------------------------------------------------|
-| [Tutorial Title 1](link-to-tutorial) | [Creator/Channel Name 1] | How this tutorial helped you.             |
-| [Tutorial Title 2](link-to-tutorial) | [Creator/Channel Name 2] | How this tutorial contributed to your project. |
-
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 #### Media
 
-The following images used in this project are sourced from Unsplash and are used under their respective licenses:
+- Images are sourced from: https://www.deviantart.com/1j9e8p7/art/World-Of-Warcraft-Icons-119251870
+- Social media icons are sourced from: Font Awesome.
+- Fonts (Warcraft) are sourced from: (https://www.cdnfonts.com/warcraft.font)
+
+#### Code
+
+- Overall inspiration was taken from the game World of Warcraft.
+- Inspiritaion for the memory game was taken from a video by Code Sketch: https://www.youtube.com/watch?v=eMhiMsEC9Uk&list=PLLX1I3KXZ-YH-woTgiCfONMya39-Ty8qw
+
+#### Acknowledgements
+
+- The Code Institute Slack community offered valuable insight during the development of this project.
+- My mentor Jubril offering and sharing his experience and feedback during the development of this project.
